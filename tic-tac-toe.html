@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tic-tac-toe.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+</head>
+<script src="tic-tac-toe.js"></script>
+<body id="whole">
+  <div>
+    <h1 class="heading"><div id="tic"><b>TIC TAC TOE</b> </div></h1>
+    <p class="rules"><b>Tap To Start</b><br>
+    <b>PLAYER 1</b> -- X<br>
+<b>PLAYER 2</b> -- O </p>
+
+<br><br>
+<div id="box">
+<input type="text" id="b1" onclick="b1func(); game();" readonly>
+<input type="text" id="b2" onclick="b2func(); game();" readonly>
+<input type="text" id="b3" onclick="b3func(); game();" readonly>
+</div>
+
+<div id="box">
+<input type="text" id="b4" onclick="b4func(); game();" readonly>
+<input type="text" id="b5" onclick="b5func(); game();" readonly>
+<input type="text" id="b6" onclick="b6func(); game();" readonly>
+</div>
+
+<div id="box">
+<input type="text" id="b7" onclick="b7func(); game();" readonly>
+<input type="text" id="b8" onclick="b8func(); game();" readonly>
+<input type="text" id="b9" onclick="b9func(); game();" readonly>
+</div>
+<br><br>
+
+<button id="reset" class="btn btn-default" onclick="resetbtn()">
+  <b>RESET</b>
+</button>
+
+<br><br>
+
+<p id="print"></p>
+<br><br><br><br>
+
+</div>
+</body>
+
+</html>

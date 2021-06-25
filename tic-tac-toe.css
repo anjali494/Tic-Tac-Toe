@@ -1,0 +1,60 @@
+#whole
+{
+    background-color: #53a5a0;
+    text-align: center;
+    align-content: center;
+}
+
+
+#tic 
+{
+    color: #003B46;
+    text-align: center;
+    justify-self: center;
+    font-size: 8rem;
+    margin: auto;
+}
+
+#box 
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#b1, #b2, #b3, #b4, #b5, 
+#b6, #b7, #b8, #b9 
+{
+       height: 8rem;
+       width: 8rem;
+       text-align: center;
+       text-justify: auto;
+       font-size: 4rem;
+       background-color: #07575B;
+       color: #66A5AD;
+        
+        
+}
+
+
+#reset 
+{
+    color: #66A5AD;
+    background-color: #003B46;
+    align-content: center;
+    align-self: center;
+}
+
+.rules
+{
+    margin: auto;
+    font-size: 2rem;
+    color: #003B46;
+}
+
+#print 
+{
+    margin: auto;
+    font-size: 3rem;
+    color: #003B46;
+}
